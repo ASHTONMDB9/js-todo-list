@@ -31,7 +31,7 @@
       const list = document.querySelector("ul");
       // return if task is empty
       if (task.value === "") {
-        alert("Please add some task!");
+        alert("Task is empty!");
         return false;
       }
 
